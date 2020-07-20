@@ -1,1 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T08:15:55.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" version="13.4.8" etag="pKwRCvYNJvmqEtmMH-El" type="github"><diagram id="E__dhThUvS9NpP6C5C6G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-20T08:19:14.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="FI8lAf-z_48vx5Qg3tbc" version="13.4.8" type="github" pages="2">
+  <diagram id="E__dhThUvS9NpP6C5C6G" name="第 1 页">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AmcDbleds8OBJd3_romo-1" value="待处理订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-755" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-32" target="AmcDbleds8OBJd3_romo-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="-730" as="sourcePoint" />
+            <mxPoint x="710" y="-415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-3" value="预约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-2">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-4" value="房东处理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-745" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-1" target="AmcDbleds8OBJd3_romo-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="-375" as="sourcePoint" />
+            <mxPoint x="1030" y="-425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-4" target="AmcDbleds8OBJd3_romo-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="-375" as="sourcePoint" />
+            <mxPoint x="870" y="-605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-7" value="接受" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-6">
+          <mxGeometry x="-0.22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-8" value="&lt;div&gt;1.状态：待处理，&lt;span&gt;待看房，已完成，已评价，已取消&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.待处理订单 &amp;gt;&amp;gt; 过了看房时间未处理&amp;nbsp; &amp;gt;&amp;gt;&amp;nbsp; 订单取消&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.待看房订单 &amp;gt;&amp;gt; 未扫码, 房客直接确认&amp;nbsp; &amp;gt;&amp;gt;&amp;nbsp; 订单完成&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4.待看房订单 &amp;gt;&amp;gt; 房东扫码 &amp;gt;&amp;gt; 用户未确认 &amp;gt;&amp;gt; 订单完成&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5.待看房订单 &amp;gt;&amp;gt; 用户确认 &amp;gt;&amp;gt; 订单完成&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;6.待看房订单 &amp;gt;&amp;gt; 都未处理 &amp;gt;&amp;gt; 订单取消&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="-955" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-9" value="订单取消" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="-845" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-16" target="AmcDbleds8OBJd3_romo-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1068" y="-575" as="sourcePoint" />
+            <mxPoint x="1066" y="-485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1186" y="-625" />
+              <mxPoint x="1186" y="-805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-575" as="sourcePoint" />
+            <mxPoint x="1076" y="-805" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="-805" />
+              <mxPoint x="1046" y="-805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-12" value="取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-11">
+          <mxGeometry x="-0.0312" relative="1" as="geometry">
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-4" target="AmcDbleds8OBJd3_romo-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-575" as="sourcePoint" />
+            <mxPoint x="1068" y="-625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1066" y="-725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-14" value="未处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-13">
+          <mxGeometry x="-0.2881" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-15" value="待看房" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="816" y="-615" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-16" value="预约时间点" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="-645" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-17" value="交叉处理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-475" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-15" target="AmcDbleds8OBJd3_romo-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-445" as="sourcePoint" />
+            <mxPoint x="1036" y="-495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-17" target="AmcDbleds8OBJd3_romo-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-445" as="sourcePoint" />
+            <mxPoint x="1066" y="-455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1066" y="-455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-20" value="房客确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-19">
+          <mxGeometry x="-0.1912" y="1" relative="1" as="geometry">
+            <mxPoint x="-71" y="-58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-17" target="AmcDbleds8OBJd3_romo-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-345" as="sourcePoint" />
+            <mxPoint x="870" y="-335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-22" value="房东扫码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-21">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-23" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="736" y="-425" as="sourcePoint" />
+            <mxPoint x="656" y="-455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-24" value="都未处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-23">
+          <mxGeometry x="0.2078" y="2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-25" value="预约时间点" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="-475" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-26" value="订单取消" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="-495" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-27" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-25" target="AmcDbleds8OBJd3_romo-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-545" as="sourcePoint" />
+            <mxPoint x="1036" y="-595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-28" value="房客处理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-29" value="预约时间点" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="821" y="-225" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-30" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-29" target="AmcDbleds8OBJd3_romo-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="976" y="-415" as="sourcePoint" />
+            <mxPoint x="466" y="-325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1066" y="-205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-31" value="订单完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="-115" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-32" value="app" style="rounded=1;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="426" y="-775" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-28" target="AmcDbleds8OBJd3_romo-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="816" y="-305" as="sourcePoint" />
+            <mxPoint x="662" y="-305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-34" value="未处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-33">
+          <mxGeometry x="0.2078" y="2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="AmcDbleds8OBJd3_romo-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="-330.5" as="sourcePoint" />
+            <mxPoint x="1066" y="-330.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1066" y="-330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-36" value="确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-35">
+          <mxGeometry x="-0.1912" y="1" relative="1" as="geometry">
+            <mxPoint x="-81" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-37" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-145" as="sourcePoint" />
+            <mxPoint x="896" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-38" value="评价" style="shape=display;whiteSpace=wrap;html=1;rounded=0;glass=0;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="821" y="-110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-39" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AmcDbleds8OBJd3_romo-17" target="AmcDbleds8OBJd3_romo-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="986" y="-425" as="sourcePoint" />
+            <mxPoint x="1036" y="-475" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="666" y="-345" />
+              <mxPoint x="429" y="-345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmcDbleds8OBJd3_romo-40" value="房东，房客取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AmcDbleds8OBJd3_romo-39">
+          <mxGeometry x="0.0378" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-2" id="0Nj-nz8LST9HbFYxc4Km">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="6jPz2Ay7HBGebSKg-yM3-0" />
+        <mxCell id="6jPz2Ay7HBGebSKg-yM3-1" parent="6jPz2Ay7HBGebSKg-yM3-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
