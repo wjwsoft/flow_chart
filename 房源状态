@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T06:48:03.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="hHTn3z_B_drfRqx2c1lb" version="13.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T06:51:24.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="it-WRka9dRVe9P4iuuFN" version="13.4.8" type="github">
   <diagram id="NKXYmd0v5imSHdh7kwT0" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-26" value="编辑提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-9">
+          <mxGeometry x="-0.5492" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SKmrtyHV-5z_LAP2mQWx-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="592" y="349.5" as="sourcePoint" />
@@ -88,31 +93,51 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-17" value="删除" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="15" y="310" width="80" height="80" as="geometry" />
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-28" value="下架" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-16">
+          <mxGeometry x="-0.8014" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="5" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-18" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-5">
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-17" value="删除" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-18" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-5" target="SKmrtyHV-5z_LAP2mQWx-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="422" y="350" as="sourcePoint" />
             <mxPoint x="112" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-6">
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-24" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-18">
+          <mxGeometry x="0.1964" y="1" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-6" target="SKmrtyHV-5z_LAP2mQWx-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="222" y="360" as="sourcePoint" />
             <mxPoint x="72" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="72" y="515" />
+              <mxPoint x="60" y="515" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-20" value="" style="endArrow=classic;html=1;entryX=0.413;entryY=-0.025;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-2">
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-21" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-19">
+          <mxGeometry x="-0.2924" y="1" relative="1" as="geometry">
+            <mxPoint x="20" y="-1.32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-20" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-2" target="SKmrtyHV-5z_LAP2mQWx-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="222" y="360" as="sourcePoint" />
             <mxPoint x="65.03999999999996" y="308" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="65" y="190" />
+              <mxPoint x="60" y="190" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-25" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-20">
+          <mxGeometry x="-0.5221" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
