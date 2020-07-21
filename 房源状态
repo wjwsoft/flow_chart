@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T06:51:24.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="it-WRka9dRVe9P4iuuFN" version="13.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T07:27:43.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="ALFCBEkJGH1U8acxf0A9" version="13.4.8" type="github">
   <diagram id="NKXYmd0v5imSHdh7kwT0" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-1" value="&lt;p&gt;&lt;span style=&quot;line-height: 100%&quot;&gt;一、业务状态：0未提交，1待审核，2审核不通过，3审核通过，4已下架&lt;/span&gt;&lt;br&gt;&lt;/p&gt;二、展示分类：已发布(审核通过)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;gt;&amp;gt;&amp;nbsp; 3&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;审核(待审核,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 1,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;草稿(未提交,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 0,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;已下架&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt;&amp;gt;&amp;nbsp; 4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-1" value="&lt;p&gt;&lt;span style=&quot;line-height: 100%&quot;&gt;一、业务状态：0未提交，1待审核，2审核不通过，3审核通过，4已下架&lt;/span&gt;&lt;br&gt;&lt;/p&gt;二、展示分类：已发布(审核通过)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;gt;&amp;gt;&amp;nbsp; 3&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;审核(待审核,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 1,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;草稿(未提交,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 0,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;已下架&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt;&amp;gt;&amp;nbsp; 4&lt;br&gt;三、" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" width="430" height="110" as="geometry" />
         </mxCell>
         <mxCell id="SKmrtyHV-5z_LAP2mQWx-2" value="未提交" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -61,7 +61,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SKmrtyHV-5z_LAP2mQWx-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-3">
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="592" y="349.5" as="sourcePoint" />
             <mxPoint x="652" y="390" as="targetPoint" />
@@ -69,7 +69,7 @@
         </mxCell>
         <mxCell id="SKmrtyHV-5z_LAP2mQWx-15" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-10">
           <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
-            <mxPoint y="-3" as="offset" />
+            <mxPoint x="6" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SKmrtyHV-5z_LAP2mQWx-11" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-5">
@@ -138,6 +138,22 @@
         <mxCell id="SKmrtyHV-5z_LAP2mQWx-25" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-20">
           <mxGeometry x="-0.5221" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-3" target="SKmrtyHV-5z_LAP2mQWx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572" y="330" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="752" y="200" />
+              <mxPoint x="610" y="200" />
+              <mxPoint x="610" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-30" value="编辑提交，线上数据不变" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-29">
+          <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint x="-27" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
