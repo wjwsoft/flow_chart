@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T04:10:49.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" version="13.4.8" etag="io1rjtu617FkYje9NqwT" type="github"><diagram id="NKXYmd0v5imSHdh7kwT0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-21T06:48:03.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="hHTn3z_B_drfRqx2c1lb" version="13.4.8" type="github">
+  <diagram id="NKXYmd0v5imSHdh7kwT0" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-1" value="&lt;p&gt;&lt;span style=&quot;line-height: 100%&quot;&gt;一、业务状态：0未提交，1待审核，2审核不通过，3审核通过，4已下架&lt;/span&gt;&lt;br&gt;&lt;/p&gt;二、展示分类：已发布(审核通过)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;gt;&amp;gt;&amp;nbsp; 3&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;审核(待审核,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 1,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;草稿(未提交,审核不通过) &amp;gt;&amp;gt;&amp;nbsp; 0,2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;已下架&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;gt;&amp;gt;&amp;nbsp; 4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-2" value="未提交" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-3" value="审核通过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-4" value="待审核" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-5" value="审核不通过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-6" value="已下架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="484.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-2" target="SKmrtyHV-5z_LAP2mQWx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="350" as="sourcePoint" />
+            <mxPoint x="602" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="512" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-12" value="提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-7">
+          <mxGeometry x="-0.5355" y="-1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-5" target="SKmrtyHV-5z_LAP2mQWx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="355" as="sourcePoint" />
+            <mxPoint x="512" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-13" value="编辑提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-8">
+          <mxGeometry x="-0.2333" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-6" target="SKmrtyHV-5z_LAP2mQWx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="452" y="540" as="sourcePoint" />
+            <mxPoint x="632" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="512" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="592" y="349.5" as="sourcePoint" />
+            <mxPoint x="652" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-15" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-10">
+          <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-11" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-4" target="SKmrtyHV-5z_LAP2mQWx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="482" y="440" as="sourcePoint" />
+            <mxPoint x="472" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-14" value="不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SKmrtyHV-5z_LAP2mQWx-11">
+          <mxGeometry x="0.1833" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-3" target="SKmrtyHV-5z_LAP2mQWx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="350" as="sourcePoint" />
+            <mxPoint x="592" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="752" y="610" />
+              <mxPoint x="272" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-17" value="删除" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="15" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-18" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="350" as="sourcePoint" />
+            <mxPoint x="112" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-19" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="360" as="sourcePoint" />
+            <mxPoint x="72" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="72" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKmrtyHV-5z_LAP2mQWx-20" value="" style="endArrow=classic;html=1;entryX=0.413;entryY=-0.025;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="SKmrtyHV-5z_LAP2mQWx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="360" as="sourcePoint" />
+            <mxPoint x="65.03999999999996" y="308" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
