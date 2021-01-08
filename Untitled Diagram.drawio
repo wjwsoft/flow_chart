@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T11:05:56.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="zb0SzNOSbrCIiQc4Zwhz" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-08T11:10:38.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="J5ZF0YyMRfGDW0aqLy4k" version="13.10.0" type="github">
   <diagram id="0y5CBF9WTk6m3tG4iunj" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,24 @@
         </mxCell>
         <mxCell id="aXzQpGHQhzWdp8_T5svX-21" value="订单3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aXzQpGHQhzWdp8_T5svX-26">
           <mxGeometry y="96.84210526315789" width="146" height="48.421052631578945" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="330" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-44" value="产品A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aXzQpGHQhzWdp8_T5svX-43">
+          <mxGeometry width="140" height="72.63157894736842" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-45" value="" style="group" vertex="1" connectable="0" parent="aXzQpGHQhzWdp8_T5svX-43">
+          <mxGeometry width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aXzQpGHQhzWdp8_T5svX-45">
+          <mxGeometry width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-52" value="登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aXzQpGHQhzWdp8_T5svX-45">
+          <mxGeometry x="10" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aXzQpGHQhzWdp8_T5svX-53" value="同意某某app获取用户信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aXzQpGHQhzWdp8_T5svX-45">
+          <mxGeometry x="25" y="40" width="90" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
