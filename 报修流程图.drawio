@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T08:24:21.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.4" etag="w5H0VxEEDJ5xagT1X4DW" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-01T09:16:12.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ajSDs6aBwLHdAilHs9AF" version="14.5.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-31" value="&lt;h1&gt;授权说明&lt;/h1&gt;&lt;p&gt;通过关注的公众号菜单点击进来，自动授权识别唯一账户，第一次引导用户绑定手机号到账户中&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="10" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-32" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="120" width="930" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-0" value="微信&lt;br&gt;公众号" style="rounded=1;whiteSpace=wrap;html=1;glass=0;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry y="120" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-9" value="h5首页&lt;br&gt;&lt;br&gt;报修说明" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="310" y="200" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-21" value="是否&lt;br&gt;绑定过手机号" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="110" y="130" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="p90ERLUO9mrDLlwjHOpO-32" source="p90ERLUO9mrDLlwjHOpO-0" target="p90ERLUO9mrDLlwjHOpO-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="p90ERLUO9mrDLlwjHOpO-32" source="p90ERLUO9mrDLlwjHOpO-21" target="p90ERLUO9mrDLlwjHOpO-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-27" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p90ERLUO9mrDLlwjHOpO-23">
+          <mxGeometry x="-0.2364" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-19" value="报修订单&lt;br&gt;列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="550" y="310" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-34" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="p90ERLUO9mrDLlwjHOpO-32" target="p90ERLUO9mrDLlwjHOpO-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="260" />
+              <mxPoint x="450" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-37" value="我的订单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p90ERLUO9mrDLlwjHOpO-34">
+          <mxGeometry x="0.2074" y="2" relative="1" as="geometry">
+            <mxPoint x="28.000000000000004" y="7.0000000000000036" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-35" value="&lt;h1&gt;报修记录&lt;/h1&gt;&lt;p&gt;依靠微信授权显示该用户所有历史报修记录，实时状态如下：&lt;/p&gt;&lt;p&gt;1.审核中（报修申请中）&lt;/p&gt;&lt;p&gt;&lt;span&gt;2.待处理（待客户邮寄产品）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;3.处理中（维修处理中）&lt;/p&gt;&lt;p&gt;4.已完成&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 4.1维修完成且邮寄给客户&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 4.2审核不通&lt;/p&gt;&lt;p&gt;5.待评价&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="635" y="200" width="150" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-18" value="报修流程&lt;br&gt;说明" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="120" y="355" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-11" value="申请填写" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="550" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="p90ERLUO9mrDLlwjHOpO-32" source="p90ERLUO9mrDLlwjHOpO-9" target="p90ERLUO9mrDLlwjHOpO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="260" />
+              <mxPoint x="450" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-33" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;维修申请&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p90ERLUO9mrDLlwjHOpO-29">
+          <mxGeometry x="0.0387" y="-1" relative="1" as="geometry">
+            <mxPoint x="39" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-30" value="&lt;h1&gt;报修手机号&lt;/h1&gt;&lt;p&gt;自动携带绑定的手机号，用户也可以直接填写其他手机号&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="p90ERLUO9mrDLlwjHOpO-32">
+          <mxGeometry x="635" y="10" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-38" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="p90ERLUO9mrDLlwjHOpO-32" source="p90ERLUO9mrDLlwjHOpO-9" target="p90ERLUO9mrDLlwjHOpO-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-20" value="账户&lt;br&gt;绑定手机号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="90" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="p90ERLUO9mrDLlwjHOpO-20" target="p90ERLUO9mrDLlwjHOpO-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="320" y="260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="p90ERLUO9mrDLlwjHOpO-21" target="p90ERLUO9mrDLlwjHOpO-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p90ERLUO9mrDLlwjHOpO-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p90ERLUO9mrDLlwjHOpO-25">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint x="51" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
